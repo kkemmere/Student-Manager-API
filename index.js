@@ -7,8 +7,6 @@ const pool = require("./db");
 app.use(cors());
 app.use(express.json()); // req.body
 
-//routes
-
 //GET all Students
 
 app.get("/students", async (req, res) => {
@@ -39,10 +37,10 @@ app.get("/students/:id", async (req, res) => {
 
 app.post("/students", async (req, res) => {
     try {
-        const {id, name, dept_name, tot_cred} = req.body;
+        const {ID, name, dept_name, tot_cred} = req.body;
         console.log(req.body);
 
-        const newPost = await pool.query("INSERT INTO student (ID, name, dept_name, tot_cred) VALUES (?, ?, ?, ?)",[id, name, dept_name, tot_cred]);
+        const newPost = await pool.query("INSERT INTO student (ID, name, dept_name, tot_cred) VALUES (?, ?, ?, ?)",[ID, name, dept_name, tot_cred]);
 
         res.json("New Student was added to database...");
     } catch (err) {
@@ -52,7 +50,36 @@ app.post("/students", async (req, res) => {
 
 //PUT a
 
+
+app.put("/students/:id", async (req, res) => {
+    try {
+        const {id} = req.params;
+        const {ID, name, dept_name, tot_cred} = req.body;
+        console.log(req.body);
+
+        const newPut = await pool.query("UPDATE student SET ID=?, name=?, dept_name=?, tot_cred=? WHERE ID=?",[(ID, name, dept_name, tot_cred), id]);
+
+        res.json("Student was updated...");
+    } catch (err) {
+        console.error(err.message);
+    }
+});
+
 //DELETE a
+
+app.delete("/students/:id", async (req, res) => {
+    try {
+        const {id} = req.params;
+
+        const newDelete = await pool.query("DELTE FROM student WHERE ID=?",[id]);
+
+        res.json("Student was deleted from university...");
+    } catch (err) {
+        console.error(err.message);
+    }
+});
+
+// Listening to port 5000
 
 app.listen(5000, () => {
     console.log("Server is running on port 5000");
