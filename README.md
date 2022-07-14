@@ -1,1 +1,1 @@
-# nodejs-mysql-restful
+# nodejs-mysql-restful-api
