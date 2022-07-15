@@ -40,7 +40,7 @@ Creation of a Student RESTful API, following are the rest end points
 ```json
  [
   { 
-    "id":00128,
+    "id":"00128",
     "name":"Zhang",
     "dept_name":"Comp. Sci.",
     "tot_cred":102
