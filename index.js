@@ -48,7 +48,8 @@ app.post("/students", async (req, res) => {
     }
 });
 
-//PUT a
+//PUT a 
+// Update not currently working
 
 app.put("/students/:id", async (req, res) => {
     try {
