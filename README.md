@@ -10,9 +10,9 @@ Using "Postman" application to be able to use Post, Put, Delete operations. Idea
 ## NPM Modules (Must have NodeJs installed)
 
 - Express
+- Nodemon
 - Promise
 - MySQL2
-- Nodemon
 - Cors
 
 
