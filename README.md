@@ -192,8 +192,8 @@ Creation of a Student RESTful API, following are the rest end points
 | `id`      | `int` | **Required**. Id of student to delete |
 
 
-<!-- # Student was deleted from university...." -->
-<!-- ![rest](https://github.com/kkemmere/springboot-jdbctemplate-rest-api/blob/main/0B1BD816-9EE3-4CEC-9415-A58A37C61657_1_105_c.jpeg) -->
+# Student was deleted from university...."
+![rest](https://github.com/kkemmere/nodejs-mysql-restful-api/blob/main/Screen%20Shot%202022-07-15%20at%201.23.04%20PM.png)
 <br/>
 
   
