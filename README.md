@@ -12,6 +12,7 @@ Using "Postman" application to be able to use Post, Put, Delete operations. Idea
 - Express
 - Promise
 - MySQL2
+- Nodemon
 - Cors
 
 
