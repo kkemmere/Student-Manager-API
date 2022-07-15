@@ -192,7 +192,7 @@ Creation of a Student RESTful API, following are the rest end points
 | `id`      | `int` | **Required**. Id of student to delete |
 
 
-# Student was deleted from university...."
+### Sample Request
 ![rest](https://github.com/kkemmere/nodejs-mysql-restful-api/blob/main/Screen%20Shot%202022-07-15%20at%201.23.04%20PM.png)
 <br/>
 
