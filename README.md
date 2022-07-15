@@ -40,82 +40,82 @@ Creation of a Student RESTful API, following are the rest end points
 ```json
  [
   { 
-    "id":00128
+    "id":00128,
     "name":"Zhang",
     "dept_name":"Comp. Sci.",
-    "tot_cred":102,
+    "tot_cred":102
   },
   {
-    "id":12345
+    "id":12345,
     "name":"Shankar",
     "dept_name":"Comp. Sci.",
-    "tot_cred":32,
+    "tot_cred":32
    },
    {
-    "id":19991
+    "id":19991,
     "name":"Brandt",
     "dept_name":"History",
-    "tot_cred":80,
+    "tot_cred":80
    },
    {
-    "id":23121
+    "id":23121,
     "name":"Chavez",
     "dept_name":"Finance",
-    "tot_cred":110,
+    "tot_cred":110
    },
    {
-    "id":44553
+    "id":44553,
     "name":"Peltier",
     "dept_name":"Physics",
-    "tot_cred":56,
+    "tot_cred":56
    },
    {
-    "id":45678
+    "id":45678,
     "name":"Levy",
     "dept_name":"Physics",
-    "tot_cred":46,
+    "tot_cred":46
    },
    {
-    "id":54321
+    "id":54321,
     "name":"Williams",
     "dept_name":"Comp. Sci.",
-    "tot_cred":54,
+    "tot_cred":54
    },
    {
-    "id":55739
+    "id":55739,
     "name":"Sanchez",
     "dept_name":"Music",
-    "tot_cred":38,
+    "tot_cred":38
    },
    {
-    "id":70557
+    "id":70557,
     "name":"Snow",
     "dept_name":"Physics",
-    "tot_cred":0,
+    "tot_cred":0
    },
    {
-    "id":76543
+    "id":76543,
     "name":"Brown",
     "dept_name":"Comp. Sci.",
-    "tot_cred":58,
+    "tot_cred":58
    },
    {
-    "id":76653
+    "id":76653,
     "name":"Aoi",
     "dept_name":"Elec. Eng.",
-    "tot_cred":60,
+    "tot_cred":60
    },
    {
-    "id":98765
+    "id":98765,
     "name":"Bourikas",
     "dept_name":"Elec. Eng.",
-    "tot_cred":98,
+    "tot_cred":98
    },
    {
-    "id":98988
+    "id":98988,
     "name":"Tanaka",
     "dept_name":"Biology",
-    "tot_cred":120,
+    "tot_cred":120
    }
   ]
 ```
