@@ -50,7 +50,6 @@ app.post("/students", async (req, res) => {
 
 //PUT a
 
-
 app.put("/students/:id", async (req, res) => {
     try {
         const {id} = req.params;
@@ -71,7 +70,7 @@ app.delete("/students/:id", async (req, res) => {
     try {
         const {id} = req.params;
 
-        const newDelete = await pool.query("DELTE FROM student WHERE ID=?",[id]);
+        const newDelete = await pool.query("DELETE FROM student WHERE ID=?",[id]);
 
         res.json("Student was deleted from university...");
     } catch (err) {
