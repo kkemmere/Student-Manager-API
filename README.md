@@ -3,7 +3,7 @@
 *This api is basically the same as my jdbctemplate spring boot api but much more simple with nodejs*
 
 This is a project that shows you how to build a NodeJs RESTful API that connects to MySQL databse using npm promise wrapper & nodemon.<br/>
-Database used is called "university" and created by one of my professors. All data in the database is for test purposes only.<br/><br/>
+Database used is called "university". All data in the database is for test purposes only.<br/><br/>
 Using "Postman" application to be able to use Post, Put, Delete operations. Ideally it is implemented such that JavaScript/HTML is used on client side instead. (Will add angular front end soon)
 
 
