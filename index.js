@@ -25,7 +25,7 @@ app.get("/students", async (req, res) => {
 app.get("/students/:id", async (req, res) => {
     try {
         const {id} = req.params;
-        const newGetA = await pool.query("SELECT * FROM student WHERE ID = ?", [id]);
+        const newGetA = await pool.query("SELECT * FROM student WHERE ID=?", [id]);
 
         res.json(newGetA[0]);
     } catch (err) {
@@ -49,15 +49,14 @@ app.post("/students", async (req, res) => {
 });
 
 //PUT a 
-// Update not currently working
 
 app.put("/students/:id", async (req, res) => {
     try {
         const {id} = req.params;
-        const {ID, name, dept_name, tot_cred} = req.body;
+        const {IDz, name, dept_name, tot_cred} = req.body;
         console.log(req.body);
 
-        const newPut = await pool.query("UPDATE student SET ID=?, name=?, dept_name=?, tot_cred=? WHERE ID=?",[(ID, name, dept_name, tot_cred), id]);
+        const newPut = await pool.query("UPDATE student SET ID=?, name=?, dept_name=?, tot_cred=? WHERE ID=?",[id, IDz, name, dept_name, tot_cred]);
 
         res.json("Student was updated...");
     } catch (err) {
