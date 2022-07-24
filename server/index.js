@@ -13,7 +13,7 @@ app.get("/students", async (req, res) => {
     try {
         const newGetAll = await pool.query("SELECT * FROM student");
 
-        res.json(newGetAll);
+        res.json(newGetAll[0]);
     } catch (err) {
         console.error(err.message);
     }
@@ -38,7 +38,6 @@ app.get("/students/:id", async (req, res) => {
 app.post("/students", async (req, res) => {
     try {
         const {ID, name, dept_name, tot_cred} = req.body;
-        console.log(req.body);
 
         const newPost = await pool.query("INSERT INTO student (ID, name, dept_name, tot_cred) VALUES (?, ?, ?, ?)",[ID, name, dept_name, tot_cred]);
 
@@ -53,10 +52,9 @@ app.post("/students", async (req, res) => {
 app.put("/students/:id", async (req, res) => {
     try {
         const {id} = req.params;
-        const {IDz, name, dept_name, tot_cred} = req.body;
-        console.log(req.body);
+        const {ID, name, dept_name, tot_cred} = req.body;
 
-        const newPut = await pool.query("UPDATE student SET ID=?, name=?, dept_name=?, tot_cred=? WHERE ID=?",[id, IDz, name, dept_name, tot_cred]);
+        const newPut = await pool.query("UPDATE student SET ID=?, name=?, dept_name=?, tot_cred=? WHERE ID=?",[ID, name, dept_name, tot_cred, id]);
 
         res.json("Student was updated...");
     } catch (err) {
@@ -69,7 +67,6 @@ app.put("/students/:id", async (req, res) => {
 app.delete("/students/:id", async (req, res) => {
     try {
         const {id} = req.params;
-
         const newDelete = await pool.query("DELETE FROM student WHERE ID=?",[id]);
 
         res.json("Student was deleted from university...");

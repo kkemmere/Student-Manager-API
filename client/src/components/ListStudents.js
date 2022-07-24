@@ -35,10 +35,10 @@ const ListStudents = () => {
             <table class="table mt-5">
                 <thread>
                     <tr class="d-flex">
-                        <th class="col-2">ID</th>
-                        <th class="col-3">Name</th>
-                        <th class="col-2">dept_name</th>
-                        <th class="col-2">tot_cred</th>
+                        <th class="col-2">ID(5)</th>
+                        <th class="col-3">Name(20)</th>
+                        <th class="col-2">dept_name(20)</th>
+                        <th class="col-2">tot_cred(3)</th>
                         <th class="col-1">Edit</th>
                         <th class="col-1">Delete</th>
                     </tr>
