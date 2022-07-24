@@ -1,4 +1,4 @@
-# nodejs-mysql-restful-api
+# NodeJS, MySQL server side api
 
 *This api is basically the same as my jdbctemplate spring boot api but much more simple with nodejs and express*
 
@@ -25,7 +25,7 @@ Using "Postman" application to be able to use Post, Put, Delete operations. Idea
 - Delete students by id
 
   
-## API server side reference
+## API reference
 
 Creation of a Student RESTful API, following are the rest end points
 
