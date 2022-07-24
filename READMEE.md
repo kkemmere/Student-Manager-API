@@ -1,4 +1,4 @@
-# NodeJS MySQL server side api
+# MySQL Express NodeJS Server Side API
 
 ### Client Side (ReactJS)
  - [Client](https://github.com/kkemmere/Student-Manager-API/blob/main/README.md) 
