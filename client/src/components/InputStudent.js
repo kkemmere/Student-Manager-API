@@ -17,13 +17,14 @@ const InputStudent = () => {
             body: JSON.stringify(body)});
 
             console.log(response);
+            window.location = "/";
         } catch (err) {
             console.error(err.message);
         }
     }
     return (
         <Fragment>
-            <h1 className="text-center my-5"> Input Student</h1>
+            <h1 className="text-center my-5"> Student Manager</h1>
             <form className="d-flex" onSubmit={onSubmitForm}>
                 <input 
                     type="text" 
