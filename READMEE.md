@@ -1,5 +1,8 @@
 # NodeJS MySQL server side api
 
+### Client Side (ReactJS)
+ - [Client](https://github.com/kkemmere/Student-Manager-API/blob/main/READMEE.md)
+
 *This api is basically the same as my jdbctemplate spring boot api but much more simple with nodejs and express*
 
 This is a project that shows you how to build a NodeJs RESTful API that connects to MySQL databse using npm promise wrapper & nodemon.<br/>
