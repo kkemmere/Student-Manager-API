@@ -4,7 +4,6 @@
  - [Client](https://github.com/kkemmere/Student-Manager-API/blob/main/README.md) 
 
 <br/>
-<br/>
 
 *This api is basically the same as my jdbctemplate spring boot api but much more simple with nodejs and express*
 
