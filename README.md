@@ -1,4 +1,4 @@
-# NodeJS, MySQL server side api
+# NodeJS MySQL server side api
 
 *This api is basically the same as my jdbctemplate spring boot api but much more simple with nodejs and express*
 
