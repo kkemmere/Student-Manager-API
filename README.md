@@ -25,7 +25,7 @@ Using "Postman" application to be able to use Post, Put, Delete operations. Idea
 - Delete students by id
 
   
-## API Reference
+## API server side reference
 
 Creation of a Student RESTful API, following are the rest end points
 
