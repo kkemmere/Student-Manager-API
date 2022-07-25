@@ -9,7 +9,7 @@
 
 This is a project that shows you how to build a NodeJs RESTful API that connects to MySQL databse using npm promise wrapper & nodemon.<br/>
 Database used is called "university". All data in the database is for test purposes only.<br/><br/>
-Using "Postman" application to be able to use Post, Put, Delete operations. Ideally it is implemented such that JavaScript/HTML is used on client side instead. <b>(ReactJS client side added and currently being worked on)<b/>
+Using "Postman" application to be able to use Post, Put, Delete operations just to show server side works correctly. I have implemented it such that ReactJS is used on the client side. <b>Click the "Client Side" link above.<b/>
 
 
 ## NPM Modules (Must have NodeJs installed)
