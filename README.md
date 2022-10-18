@@ -6,7 +6,7 @@
 ## Login Page 
  - Should be implemented such that user information is stored in the database instead of hard coded
 
-![Login1](https://github.com/kkemmere/Student-Manager-API/blob/main/images/Screen%20Shot%202022-10-17%20at%209.58.41%20PM.png)
+![Login1](https://github.com/kkemmere/Student-Manager-API/blob/main/images/Screen%20Shot%202022-10-17%20at%2010.25.42%20PM.png)
 ![Login](https://github.com/kkemmere/Student-Manager-API/blob/main/images/Screen%20Shot%202022-10-17%20at%209.59.02%20PM.png)
 <br/>
 
