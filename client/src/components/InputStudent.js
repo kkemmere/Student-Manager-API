@@ -7,7 +7,6 @@ const InputStudent = () => {
     const [dept_name, setdept_name] = useState("");
     const [tot_cred, settot_cred] = useState("");
 
-
     const onSubmitForm = async e => {
         e.preventDefault();
         try {
