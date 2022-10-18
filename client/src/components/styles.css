@@ -27,16 +27,21 @@
     border: 1px solid #01d28e;
     color: #fff;
     padding: 10px 20px;
+    content: 'Login';
   }
   
   input[type="submit"]:hover {
+    content: 'Login';
     background: #6cf0c2;
   }
   
   .button-container {
+    content: "goodbye";
+    visibility: visible;
     display: flex;
     justify-content: center;
   }
+
   
   .login-form {
     background-color: white;
