@@ -1,6 +1,4 @@
 # ReactJS Client Side
-### Server Side (MySQL, Express, NodeJS)
- - [Server](https://github.com/kkemmere/Student-Manager-API/blob/main/READMEE.md)
  
 ## Login Page 
  - Should be implemented such that user information is stored in the database instead of hard coded
@@ -16,3 +14,6 @@
 ## Edit Student Bootstrap 4 Modal
 ![Modal](https://github.com/kkemmere/Student-Manager-API/blob/main/images/Screen%20Shot%202022-07-26%20at%204.07.29%20PM.png)
 <br/>
+
+### Server Side (MySQL, Express, NodeJS)
+ - [Server](https://github.com/kkemmere/Student-Manager-API/blob/main/READMEE.md)
